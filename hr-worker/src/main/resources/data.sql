@@ -1,0 +1,10 @@
+INSERT INTO tb_worker (name, daily_income) VALUES ('João Silva', 200.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Maria Oliveira', 250.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Carlos Santos', 180.5);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Ana Souza', 300.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Paulo Lima', 150.75);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Fernanda Costa', 220.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Ricardo Almeida', 275.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Bianca Rocha', 195.9);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Gustavo Pereira', 310.0);
+INSERT INTO tb_worker (name, daily_income) VALUES ('Patrícia Mendes', 260.4);
