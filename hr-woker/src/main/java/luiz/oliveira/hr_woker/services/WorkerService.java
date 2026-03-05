@@ -15,12 +15,16 @@ public class WorkerService {
 
 	@Autowired
 	private WorkerRepository repositor;
-	
-	public List<Worker> findAll(String nome){
-		
+
+	public List<Worker> findAll(String nome) {
+
 		Specification<Worker> spec = Specification.where(null);
 		spec = spec.and(WorkerSpecification.nameContains(nome));
-		
+
 		return repositor.findAll(spec);
+	}
+
+	public Worker findById(Long id) {
+		return repositor.findById(id).get();
 	}
 }
