@@ -14,7 +14,7 @@ import luiz.oliveira.hr_payroll.entities.Worker;
 @Service
 public class PaymentService {
 
-	@Value("$hr-worker.host")
+	@Value("${hr-worker.host}")
 	private String workerHost;
 
 	@Autowired
