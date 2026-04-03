@@ -32,7 +32,7 @@ public class UserController {
 	}
 	
 	@GetMapping("login")
-	public ResponseEntity<User> findById(@RequestParam String email){
+	public ResponseEntity<User> findByEmail(@RequestParam String email){
 		return ResponseEntity.ok().body(service.findByEmail(email));
 	}
 }
